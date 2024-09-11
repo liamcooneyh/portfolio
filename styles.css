@@ -1,8 +1,8 @@
 :root {
-    --text-color: #243172;
+    --text-color: #ffffff;
     --link-color: rgb(66, 66, 66);
-    --background-color: #FBEAEB;
-    --alternate-background-color: #2F3C7E;
+    --background-color: #000000;
+    --alternate-background-color: #333333;
 }
 
 * {
@@ -136,7 +136,7 @@ nav .right a span {
     text-align: center;
     width: 120px;
     background-color: var(--alternate-background-color);
-    color: var(--background-color);
+    color: var(--text-color);
 }
 
 .links-section .links a:hover {
@@ -183,6 +183,7 @@ nav .right a span {
     padding: 10px 10px;
     margin: 10px;
     color: var(--text-color);
+    background-color: var(--alternate-background-color);
     border: 1px solid var(--alternate-background-color);
     border-radius: 5px;
 }
@@ -295,11 +296,19 @@ nav .right a span {
     padding: 20px;
 }
 
+.art-section h2 {
+    text-align: center;
+    font-size: 35px;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
 .art-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .art-grid img {
