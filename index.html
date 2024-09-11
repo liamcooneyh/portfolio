@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-   
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" 
-     referrerpolicy="no-referrer" />
-
-    <link rel="stylesheet" href="styles.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
     
-    <title>Portfolio</title>
-</head>
+        <!-- Preconnect to optimize loading -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+        <!-- Font Awesome for icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <!-- jQuery (must be loaded before Lightbox) -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+        <!-- Lightbox2 CSS and JS -->
+        <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/css/lightbox.min.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/js/lightbox.min.js"></script>
+    
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="styles.css">
+    </head>    
 <body>
     <!-- NAVBAR -->
      <nav>
@@ -170,6 +181,37 @@
             </div>
         </section>
 
+        <!-- SECTION 5: Art -->
+        <section id="art" class="art-section">
+            <h2>Art</h2>
+            <div class="art-grid">
+                <a href="images/distorted_face.JPEG" data-lightbox="gallery" data-title="Distorted Face">
+                    <img src="images/distorted_face.JPEG" alt="Distorted Face">
+                </a>
+                <a href="images/ev_portrait.JPEG" data-lightbox="gallery" data-title="EV Portrait">
+                    <img src="images/ev_portrait.JPEG" alt="EV Portrait">
+                </a>
+                <a href="images/green_man.JPEG" data-lightbox="gallery" data-title="Green Man">
+                    <img src="images/green_man.JPEG" alt="Green Man">
+                </a>
+                <a href="images/red_faces.jpg" data-lightbox="gallery" data-title="Red Faces">
+                    <img src="images/red_faces.jpg" alt="Red Faces">
+                </a>
+                <a href="images/red_man.JPEG" data-lightbox="gallery" data-title="Red Man">
+                    <img src="images/red_man.JPEG" alt="Red Man">
+                </a>
+                <a href="images/sad_face.JPEG" data-lightbox="gallery" data-title="Sad Face">
+                    <img src="images/sad_face.JPEG" alt="Sad Face">
+                </a>
+                <a href="images/shark_teeth_man.JPEG" data-lightbox="gallery" data-title="Shark Teeth Man">
+                    <img src="images/shark_teeth_man.JPEG" alt="Shark Teeth Man">
+                </a>
+                <a href="images/tongue_face.JPEG" data-lightbox="gallery" data-title="Tongue Face">
+                    <img src="images/tongue_face.JPEG" alt="Tongue Face">
+                </a>
+            </div>
+        </section>
+        
         <!-- SECTION 4: Contact-->
         <section id="contact" class="contact-section">
             <h2>Contact</h2>
@@ -196,14 +238,7 @@
 
             </div>
         </section>
-
-        <!-- SECTION 5: Art -->
-        <section id="art" class="art-section">
-            <h2>Art</h2>
-
-            <div class=""></div>
-
-        </section>
+        
 
      </main>
 </body>
